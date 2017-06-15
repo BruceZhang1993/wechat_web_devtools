@@ -5,8 +5,6 @@ WeChat Web DevTools 是腾讯官方提供用于微信 Web 开发和微信小程�
 <a href="https://github.com/yuan1994/wechat_web_devtools"><img src="./screenshot/01.png" alt="WeChat Web DevTools" /></a>
 </p>
 
-应码友要求，现分离出核心版本，核心版本不包含 nwjs，体积大大减小，需要使用核心版本的请移步 https://github.com/yuan1994/wechat_web_devtools/tree/core
-
 ## 下载安装
 
 ### Arch Linux
