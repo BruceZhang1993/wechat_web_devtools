@@ -25,7 +25,7 @@ sudo cp -r $current_dir $app_path
 sed_argv="s/=\/opt\/tencent/=${install_path//'/'/'\/'}/ig"
 sudo sed -i $sed_argv "${app_path}/wechat_web_devtools.desktop"
 
-sudo chown -R $USER:$USER $app_path
+sudo chown -R $USER:users $app_path
 
 cat >"${app_path}/wechat_web_devtools"<<EOF
 #!/bin/sh
