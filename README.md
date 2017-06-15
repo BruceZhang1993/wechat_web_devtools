@@ -8,19 +8,12 @@ WeChat Web DevTools 是腾讯官方提供用于微信 Web 开发和微信小程�
 应码友要求，现分离出核心版本，核心版本不包含 nwjs，体积大大减小，需要使用核心版本的请移步 https://github.com/yuan1994/wechat_web_devtools/tree/core
 
 ## 下载安装
-### 阿里云OSS下载(推荐)：
-```
-wget http://oss.yuan1994.com/github/wechat_dev_tools/latest/wechat_web_devtools.tar.gz
-tar -zxvf wechat_dev_tools.tar.gz
-```
-或者直接下载：http://oss.yuan1994.com/github/wechat_dev_tools/latest/wechat_web_devtools.tar.gz
 
-### composer安装：
-```
-composer create-project yuan1994/wechat_web_devtools wechat_web_devtools  --prefer-dist
-```
-
-> 本人是玩 PHP 的，别拍我 ^_^
+### Arch Linux
+<a href="https://aur.archlinux.org/packages/wechat-web-devtools-git/" target="_blank">https://aur.archlinux.org/packages/wechat-web-devtools-git/</a>
+```  
+$ yaourt -S wechat-web-devtools-git
+```  
 
 ### git克隆：
 git clone https://github.com/yuan1994/wechat_web_devtools
@@ -85,11 +78,6 @@ sudo ln -s /opt/tencent/wechat_web_devtools/nw /usr/local/bin/wechat_web_devtool
 wechat_web_devtools &
 ```
 > 推荐启动时加入 & 符号，这样可以启用后台进程，启动后等待终端输出信息后再回车一次，这样就可以解放一个终端了
-
-## 微信开发工具老版本
-微信开发工具 v0.7.0 支持移动调试，但以后的版本不支持了，为了在一台机器上使用多个微信开发工具，可以找到 `package.json`，将 `package.json` 文件中的 `name` 和 `appname` 都改名，例如在后面加一个 old，该方法在 Linux\MacOS\Windows 都适用， Linux 版 v0.7.0　请移步 https://github.com/yuan1994/wechat_web_devtools/tree/v0.7.0
-
-> 本人是 Linux 小白，如果有错误的地方或可以修改的地方请大神指教，欢迎大神拍砖
 
 ## 免责声明
 该微信开发者工具系腾讯旗下产品，版权归腾讯公司所有，如果版权侵犯请联系我
