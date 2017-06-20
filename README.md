@@ -47,7 +47,7 @@ sudo mv ./wechat_web_devtools /opt/tencent
 
 4. 修改用户组
 ```
-sudo chown -R tianpian:tianpian /opt/tencent/wechat_web_devtools
+sudo chown -R $USER:users /opt/tencent/wechat_web_devtools
 ```
 > 请将上面的 tianpian 改成你自己当前用户的用户名，否则开发者工具运行时会提示无权限
 
