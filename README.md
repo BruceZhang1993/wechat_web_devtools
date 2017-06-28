@@ -9,8 +9,9 @@ WeChat Web DevTools 是腾讯官方提供用于微信 Web 开发和微信小程�
 
 ### Arch Linux
 <a href="https://aur.archlinux.org/packages/wechat-web-devtools-git/" target="_blank">https://aur.archlinux.org/packages/wechat-web-devtools-git/</a>
+<a href="https://wiki.archlinux.org/index.php/Multilib_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)" target="_blank">启用 Multilib</a> 并安装 yaourt 或 pacaur
 ```  
-$ yaourt -S wechat-web-devtools-git
+$ yaourt/pacaur -S wechat-web-devtools-git
 ```  
 
 ### git克隆：
