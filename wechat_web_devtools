@@ -1,4 +1,12 @@
 #!/bin/sh
 
-cd /opt/tencent/wechat_web_devtools
-./nw &
+CWD=$(dirname "$(readlink -f "$0")")
+
+# copy .exe files
+SRC="$CWD"/app/dist/weapp/onlinevendor
+DEST=~/.config/微信web开发者工具/WeappVendor
+mkdir -p $DEST
+cp "$SRC"/wcc.exe "$SRC"/wcsc.exe "$DEST"
+
+# lanuch
+exec "$CWD"/nw
