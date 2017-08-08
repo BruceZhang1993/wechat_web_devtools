@@ -47,6 +47,9 @@ sudo ln -s /opt/tencent/wechat_web_devtools/nw /usr/bin/wechat_web_devtools
 wechat_web_devtools &
 ```
 
+## Contributors  
+<a href="https://github.com/BruceZhang1993/wechat_web_devtools/graphs/contributors">Contributors</a>
+
 ## 免责声明
 微信开发者工具源代码及图标素材归属腾讯公司所有，具体使用协议和授权请访问腾讯开发者平台。
 WeChat Web Devtools 项目中的其他源代码采用 MIT License 开源授权。
