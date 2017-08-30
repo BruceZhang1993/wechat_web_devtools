@@ -9,4 +9,5 @@ mkdir -p $DEST
 cp "$SRC"/wcc.exe "$SRC"/wcsc.exe "$DEST"
 
 # lanuch
-exec "$CWD"/nw
+cd "$CWD"
+exec ./nw
